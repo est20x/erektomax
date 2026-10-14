@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>ErektoMax — sprawdź ofertę</title>
+    <meta
+      name="description"
+      content="ErektoMax — suplement diety. Sprawdź skład, sposób stosowania i aktualną ofertę. Zostaw numer telefonu — skontaktujemy się w sprawie zamówienia."
+    />
+    <meta property="og:title" content="ErektoMax — sprawdź ofertę" />
+    <meta
+      property="og:description"
+      content="Suplement diety. Sprawdź skład, sposób stosowania i aktualną ofertę."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💜%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <b data-product="name"></b>
+        <nav><a href="#produkt">O produkcie</a><a href="#sklad">Skład</a><a href="#faq">FAQ</a></nav>
+        <a class="btn" href="#form">Sprawdź ofertę</a>
+      </div>
+    </header>
+
+    <section class="is-dark hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-tag" data-product="status"></span>
+          <h1>Erektomax — siła Twojej potencji!</h1>
+          <p class="hero-subtitle">Wspieraj libido i ciesz się życiem pełnią możliwości</p>
+        </div>
+        <div class="pack-wrap">
+          <img
+            class="pack-img"
+            src="assets/erektomax-pack.webp"
+            alt="Opakowanie ErektoMax"
+            width="640" height="1091"
+          />
+        </div>
+        <div>
+          <div class="hero-price">
+            <span data-product="price"></span> zł<s class="hero-old-price"
+              ><span data-product="lowestPrice"></span> zł</s
+            ><span class="hero-badge"></span>
+          </div>
+          <p class="lowest-price">
+            Najniższa cena z 30 dni przed obniżką: <span data-product="lowestPrice"></span> zł
+          </p>
+          <a class="btn" href="#form">Sprawdź ofertę</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="is-light" id="produkt">
+      <div class="container about-grid">
+        <div class="pack-wrap">
+          <img
+            class="pack-img"
+            src="assets/erektomax-pack.webp"
+            alt="Opakowanie ErektoMax"
+            width="640" height="1091"
+          />
+        </div>
+        <div>
+          <h2>Poznaj <span data-product="name"></span></h2>
+          <p>
+            Erektomax to suplement diety wspierający libido i potencję u mężczyzn w naturalny sposób. Jesteśmy
+            zespołem pasjonatów zdrowia i specjalistów, a naszą misją jest wspieranie jakości życia mężczyzn,
+            którzy chcą cieszyć się pełnią życia.
+          </p>
+          <div class="cards">
+            <div class="card"><small>Forma</small><b data-product="form"></b></div>
+            <div class="card"><small>Ilość w opakowaniu</small><b data-product="quantity"></b></div>
+            <div class="card"><small>Cechy składu</small><b data-product="features"></b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="is-dark" id="sklad">
+      <div class="container">
+        <h2>Co zawiera <span data-product="name"></span>?</h2>
+        <div class="ingredients-mix">
+          <div class="ingredient-group">
+            <div class="card">
+              <b>Żeń-szeń właściwy (korzeń)</b
+              ><small
+                >Od wieków stosowany w tradycyjnej medycynie wschodniej. Uważa się, że wspomaga witalność i
+                dodaje energii w codziennych wyzwaniach.</small
+              >
+            </div>
+            <div class="card">
+              <b>Maca (korzeń pieprzycy peruwiańskiej)</b
+              ><small>Ceniony składnik, popularny wśród osób prowadzących aktywny tryb życia.</small>
+            </div>
+          </div>
+          <img src="assets/photo-capsules.avif" alt="Kapsułki na dłoni" loading="lazy" />
+          <div class="ingredient-group">
+            <div class="card">
+              <b>Damiana (ziele)</b
+              ><small
+                >Składnik roślinny stosowany tradycyjnie, często wybierany w suplementach dla mężczyzn.</small
+              >
+            </div>
+            <div class="card">
+              <b>Palma sabałowa (owoc)</b
+              ><small>Powszechnie stosowany składnik suplementów dla mężczyzn.</small>
+            </div>
+          </div>
+          <img src="assets/photo-lab.avif" alt="Praca w laboratorium" loading="lazy" />
+          <div class="ingredient-group">
+            <div class="card">
+              <b>Muira pauma (korzeń)</b
+              ><small>Znany jako „roślina mocy”, tradycyjnie stosowany składnik roślinny.</small>
+            </div>
+            <div class="card">
+              <b>Cynk</b
+              ><small
+                >Odgrywa rolę w wielu procesach biologicznych, w tym w funkcjonowaniu układu
+                odpornościowego.</small
+              >
+            </div>
+          </div>
+          <img src="assets/photo-spices.avif" alt="Składniki roślinne w łyżkach" loading="lazy" />
+        </div>
+        <p class="note">
+          Porcja dzienna: 2 kapsułki. Pełny skład i alergeny znajdziesz na etykiecie produktu.
+        </p>
+      </div>
+    </section>
+
+    <section class="is-light">
+      <div class="container">
+        <h2>Jak stosować produkt?</h2>
+        <div class="steps">
+          <div class="step">Zalecana porcja<span>2 kapsułki dziennie</span></div>
+          <div class="step">Ograniczenia<span>Produkt dla osób 18+</span></div>
+          <div class="step">
+            Przechowywanie<span
+              >Przechowywać w szczelnie zamkniętym opakowaniu w temperaturze pokojowej, w sposób niedostępny
+              dla małych dzieci. Chronić przed światłem i wilgocią.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPINIE: blok pojawia się sam, gdy tablica REVIEWS w skrypcie nie jest pusta -->
+    <section class="reviews" id="reviews" hidden>
+      <div class="container">
+        <h2>Opinie klientów</h2>
+        <div class="reviews-grid" id="reviews-list"></div>
+      </div>
+    </section>
+
+    <section class="is-dark">
+      <div class="container">
+        <h2>Jak złożyć zamówienie?</h2>
+        <div class="steps">
+          <div class="step">Wypełnij formularz</div>
+          <div class="step">Potwierdź szczegóły podczas rozmowy</div>
+          <div class="step">Odbierz przesyłkę</div>
+        </div>
+        <div class="cards">
+          <div class="card"><small>Czas dostawy</small><b>48 h</b></div>
+          <div class="card"><small>Koszt dostawy</small><b>24,99 zł</b></div>
+          <div class="card"><small>Płatność</small><b>Przy odbiorze (pobranie)</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="is-light" id="faq">
+      <div class="container">
+        <h2>Najczęściej zadawane pytania</h2>
+        <details>
+          <summary>Dla kogo przeznaczony jest produkt?</summary>
+          <p>
+            Erektomax to suplement diety wspierający libido i potencję, przeznaczony dla dorosłych mężczyzn
+            (18+).
+          </p>
+        </details>
+        <details>
+          <summary>Jak stosować produkt?</summary>
+          <p>
+            Zalecana porcja to 2 kapsułki dziennie. Nie przekraczaj zalecanej porcji. Produkt przechowuj w
+            szczelnie zamkniętym opakowaniu w temperaturze pokojowej, z dala od światła, wilgoci i dzieci.
+          </p>
+        </details>
+        <details>
+          <summary>Jakie są przeciwwskazania?</summary>
+          <p>
+            Produkt jest przeznaczony wyłącznie dla osób pełnoletnich. Nie stosuj go w przypadku uczulenia na
+            którykolwiek ze składników. Jeśli chorujesz, przyjmujesz leki lub masz wątpliwości, skonsultuj się
+            z lekarzem. Suplement diety nie zastępuje zrównoważonej diety ani leczenia.
+          </p>
+        </details>
+        <details>
+          <summary>Ile kosztuje dostawa?</summary>
+          <p>
+            Koszt dostawy wynosi 24,99 zł, a przesyłka jest dostarczana w ciągu 48 h od potwierdzenia
+            zamówienia.
+          </p>
+        </details>
+        <details>
+          <summary>Jak mogę zapłacić?</summary>
+          <p>Płatność odbywa się przy odbiorze przesyłki (pobranie) — płacisz kurierowi.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="is-dark" id="form">
+      <div class="container offer-grid">
+        <div class="offer-text">
+          <h2>Zamów dziś</h2>
+          <div class="pack-wrap">
+            <img
+              class="pack-img"
+              src="assets/erektomax-pack.webp"
+              alt="Opakowanie ErektoMax"
+              width="640" height="1091"
+            />
+          </div>
+          <div class="deal">
+            <span class="deal-badge" id="deal-badge"></span><small>Oferta specjalna</small>
+            <div class="deal-old">
+              <s><span data-product="lowestPrice"></span> zł</s>
+            </div>
+            <div class="deal-new"><span data-product="price"></span> zł</div>
+            <p>
+              Zamów dziś i zapłać <b><span data-product="price"></span> zł</b> zamiast
+              <s><span data-product="lowestPrice"></span> zł</s>
+            </p>
+            <em>Najniższa cena z 30 dni przed obniżką: <span data-product="lowestPrice"></span> zł</em>
+          </div>
+        </div>
+        <form id="lead-form" novalidate>
+          <p>Zostaw numer telefonu. Skontaktujemy się z Tobą, aby omówić szczegóły zamówienia</p>
+          <label for="name-input">Imię</label><input id="name-input" autocomplete="given-name" />
+          <div class="field-error" id="name-error"></div>
+          <label for="phone-input">Numer telefonu</label
+          ><input
+            id="phone-input"
+            type="tel"
+            inputmode="numeric"
+            autocomplete="tel"
+            value="+48 "
+            maxlength="16"
+            placeholder="+48 500 600 700"
+          />
+          <div class="field-error" id="phone-error"></div>
+          <button class="btn" id="submit-btn" type="submit">Poproś o kontakt</button>
+          <div id="form-result" role="status"></div>
+          <p class="form-legal">
+            Administratorem danych jest SB Health Sp. z o.o.. Dane przetwarzamy wyłącznie w celu kontaktu w
+            sprawie zamówienia. Szczegóły: <a href="#" data-doc="pp">Polityka prywatności</a>.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div>
+          SB Health Sp. z o.o. · 05-600 Grójec, ul. Relaksowa 9 · NIP 7972080846 · kontakt@helpvit.com · +48
+          22 1134956
+        </div>
+        <nav>
+          <a href="#" data-doc="reg">Regulamin</a><a href="#" data-doc="pp">Polityka prywatności</a
+          ><a href="#" data-doc="dp">Dostawa i płatności</a><a href="#" data-doc="zr">Zwroty i reklamacje</a
+          ><button id="cookie-settings">Ustawienia cookies</button>
+        </nav>
+      </div>
+    </footer>
+
+    <div class="doc-modal" id="doc-modal">
+      <div class="doc-box">
+        <button class="doc-close" id="doc-close" aria-label="Zamknij">✕</button>
+        <div id="doc-content"></div>
+      </div>
+    </div>
+    <div class="sticky-cta" id="sticky-cta"><a class="btn" href="#form">Sprawdź ofertę</a></div>
+    <div class="cookie-banner" id="cookie-banner">
+      Używamy plików cookies do analityki i reklam. Możesz wyrazić zgodę lub odrzucić.
+      <div>
+        <button class="btn" data-consent="1">Akceptuję</button
+        ><button class="btn btn-secondary" data-consent="0">Odrzucam</button>
+      </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/docs.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
